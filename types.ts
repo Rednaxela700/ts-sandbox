@@ -3,9 +3,13 @@ let myNum: number;
 let myBool: boolean
 
 //this has to be an array of strings
-let strArray: string[]
-let numArr: number[]
-let boolArr: boolean[]
+// let strArray: string[]
+// let numArr: number[]
+// let boolArr: boolean[]
+
+let strArray: Array<string>
+let numArr: Array<number>
+let boolArr: Array<boolean>
 
 myNum = 22.555;
 myString = 'hello';

@@ -2,6 +2,9 @@ var myString;
 var myNum;
 var myBool;
 //this has to be an array of strings
+// let strArray: string[]
+// let numArr: number[]
+// let boolArr: boolean[]
 var strArray;
 var numArr;
 var boolArr;
