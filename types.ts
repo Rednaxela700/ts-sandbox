@@ -23,4 +23,10 @@ boolArr [true, true, false]
 
 strNumTuple = ['Hello', 1000]
 
+// another way to declare typed primitive
+let myVoid: void = null
+myVoid = undefined
+let myNull: null = null
+let myUndefined: undefined = undefined
+
 console.log(myBool)
