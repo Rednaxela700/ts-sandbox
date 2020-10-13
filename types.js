@@ -8,10 +8,13 @@ var myBool;
 var strArray;
 var numArr;
 var boolArr;
+// tuple - array with defined number of elements
+var strNumTuple;
 myNum = 22.555;
 myString = 'hello';
 myBool = false;
 strArray = ['hello', 'stranger'];
 numArr = [1, 2, 3];
 boolArr[true, true, false];
+strNumTuple = ['Hello', 1000];
 console.log(myBool);
