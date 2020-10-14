@@ -14,4 +14,10 @@ let mySum = function (num1: any, num2: any): number {
     return num1 + num2
 }
 
-console.log(mySum('3', 5))
+// console.log(mySum('3', 5))
+
+function getName(firstName: string, lastName: string): string {
+    return firstName + ' ' + lastName
+}
+
+console.log(getName('John', 'Doe'))
