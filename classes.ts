@@ -10,6 +10,12 @@ class User {
 
         console.log("User Created: " + this.name)
     }
+
+    register():void{
+        console.log(this.name + ' is now registered')
+    }
 }
 
 let John = new User('John', 'hello@hello.lo', 32)
+
+John.register()

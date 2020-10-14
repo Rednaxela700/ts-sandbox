@@ -5,6 +5,10 @@ var User = /** @class */ (function () {
         this.age = age;
         console.log("User Created: " + this.name);
     }
+    User.prototype.register = function () {
+        console.log(this.name + ' is now registered');
+    };
     return User;
 }());
 var John = new User('John', 'hello@hello.lo', 32);
+John.register();
