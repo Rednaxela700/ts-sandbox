@@ -19,3 +19,7 @@ function getName(firstName, lastName) {
     return firstName + ' ' + lastName;
 }
 console.log(getName('John'));
+function myVoidFn() {
+    //void doesn't return anything at all
+    return;
+}
