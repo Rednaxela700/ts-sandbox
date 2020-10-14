@@ -16,7 +16,7 @@ let mySum = function (num1: any, num2: any): number {
 
 // console.log(mySum('3', 5))
 
-function getName(firstName: string, lastName: string): string {
+function getName(firstName: string, lastName?: string): string {
     return firstName + ' ' + lastName
 }
 
