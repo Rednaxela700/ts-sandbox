@@ -1,4 +1,12 @@
-class User {
+interface UserInterface{
+    name: string;
+    email: string;
+    age: number;
+    register():void;
+    payInvoice():void;
+}
+
+class User implements UserInterface{
     name: string;
     email: string;
     age: number;
@@ -11,7 +19,7 @@ class User {
         console.log("User Created: " + this.name)
     }
 
-    register():void{
+    register(){
         console.log(this.name + ' is now registered')
     }
 
