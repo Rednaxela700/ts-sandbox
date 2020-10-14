@@ -36,3 +36,7 @@ class Member extends User {
         super.payInvoice()
     }
 }
+
+let mike: User = new Member(1, 'Mike Smith', 'mike@mike.mike', 21)
+
+mike.payInvoice()

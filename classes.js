@@ -40,3 +40,5 @@ var Member = /** @class */ (function (_super) {
     };
     return Member;
 }(User));
+var mike = new Member(1, 'Mike Smith', 'mike@mike.mike', 21);
+mike.payInvoice();
